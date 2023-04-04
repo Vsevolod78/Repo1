@@ -1,12 +1,12 @@
-#----------------------#
-#GitHubActions Part-1-Basics#
-#---------------------#
+#------------------------------
+#GitHubActions Part-1-Basics
+#---------------------
 name: My-GitHubActions-Basics
 
 on:
   push:
     branches:
-      - master
+      - main
       
 jobs:
   my-testing:
