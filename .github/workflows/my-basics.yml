@@ -4,7 +4,7 @@
 name: My-GitHubActions-Basics
 env:
   APPLICATION_NAME: "My FlasK"
-  DEPLOY_PACKAGE_NAME: "flask-deploy-ver-${{ github.sha }}
+  DEPLOY_PACKAGE_NAME: "flask-deploy-ver-${{ github.sha }}"
 
 on:
   push:
